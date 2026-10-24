@@ -1,0 +1,100 @@
+{
+  "name": "Phosphor 磷光终端",
+  "short": "phosphor",
+  "description": "机房 NOC 磷光终端风格：纯黑底、单色磷光字、表格行与字符条，详情页仿 top/htop。只有深色。",
+  "version": "1.0.0",
+  "author": "Koritry",
+  "url": "https://github.com/LYISTR2/monitor-theme-phosphor",
+  "config": [
+    {
+      "type": "title",
+      "label": "首页"
+    },
+    {
+      "key": "tagline",
+      "type": "string",
+      "label": "站点标语",
+      "default": "",
+      "help": "显示在站点名后面的一行小字，留空不显示"
+    },
+    {
+      "key": "notice",
+      "type": "text",
+      "label": "公告",
+      "default": "",
+      "help": "显示在页面顶部，留空不显示。支持少量 Markdown：**粗体**、`代码`、[链接](https://…)，HTML 会原样显示为文字"
+    },
+    {
+      "key": "layout",
+      "type": "select",
+      "label": "默认布局",
+      "default": "table",
+      "options": [
+        {
+          "value": "table",
+          "label": "完整表格"
+        },
+        {
+          "value": "compact",
+          "label": "紧凑表格（每台一行）"
+        },
+        {
+          "value": "grouped",
+          "label": "按分组分段"
+        }
+      ]
+    },
+    {
+      "key": "show_billing",
+      "type": "boolean",
+      "label": "显示价格与到期",
+      "default": true,
+      "help": "只是不画，接口里照样有；要对访客隐藏请在节点设置里改"
+    },
+    {
+      "key": "show_latency",
+      "type": "boolean",
+      "label": "显示延迟图",
+      "default": true,
+      "help": "详情页的网络延迟曲线"
+    },
+    {
+      "type": "title",
+      "label": "磷光"
+    },
+    {
+      "key": "phosphor",
+      "type": "select",
+      "label": "磷光色",
+      "default": "green",
+      "options": [
+        {
+          "value": "green",
+          "label": "P1 磷光绿"
+        },
+        {
+          "value": "amber",
+          "label": "P3 琥珀"
+        },
+        {
+          "value": "ice",
+          "label": "P4 冰蓝"
+        }
+      ]
+    },
+    {
+      "key": "scanlines",
+      "type": "boolean",
+      "label": "扫描线",
+      "default": true,
+      "help": "极轻的 CRT 扫描线；访客系统开了「减少动态效果」时也照常显示（它不动）"
+    },
+    {
+      "key": "afterglow",
+      "type": "boolean",
+      "label": "数值余辉",
+      "default": true,
+      "help": "数值变化时 140ms 的微亮；访客开了「减少动态效果」时自动关闭"
+    }
+  ]
+}
