@@ -2,7 +2,7 @@
   "name": "Phosphor 磷光终端",
   "short": "phosphor",
   "description": "机房 NOC 磷光终端风格：纯黑底、单色磷光字、表格行与字符条，详情页仿 top/htop。只有深色。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Koritry",
   "url": "https://github.com/LYISTR2/monitor-theme-phosphor",
   "config": [

@@ -12,7 +12,11 @@
 https://github.com/LYISTR2/monitor-theme-phosphor
 ```
 
-也可下载 [v1.0.0 的 theme.tar.gz](https://github.com/LYISTR2/monitor-theme-phosphor/releases/download/v1.0.0/theme.tar.gz) 后上传安装。
+也可下载 [v1.0.1 的 theme.tar.gz](https://github.com/LYISTR2/monitor-theme-phosphor/releases/download/v1.0.1/theme.tar.gz) 后上传安装。
+
+## v1.0.1
+
+右上角新增磷光终端命令风格的「进入后台」按钮，直接打开 `/admin`；随荧绿、琥珀、冰蓝配色变化，并支持中英文、键盘导航和手机端。
 
 ## 文件与许可
 
@@ -20,4 +24,4 @@ https://github.com/LYISTR2/monitor-theme-phosphor
 主题自带字体及其许可证保留在 `dist/fonts/`。
 
 本仓库保存提供的预编译主题：`theme.json`、`preview.png` 和 `dist/`；未包含原始开发源码或构建工具链。
-发布包名固定为 `theme.tar.gz`，主题版本 `1.0.0` 对应 Release 标签 `v1.0.0`。
+发布包名固定为 `theme.tar.gz`，主题版本 `1.0.1` 对应 Release 标签 `v1.0.1`。

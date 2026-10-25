@@ -1,0 +1,24 @@
+/* Phosphor: a terminal command key following the selected phosphor colour. */
+.btn.admin-link {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 1px solid var(--fg);
+  background: var(--faint);
+  color: var(--fg);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn.admin-link:hover { background: var(--fg); color: var(--bg); text-shadow: none; }
+.btn.admin-link:focus-visible { outline: 2px solid var(--bright); outline-offset: 3px; }
+.admin-link .admin-mark { letter-spacing: -1px; }
+.admin-link .admin-return { opacity: .7; }
+@media (max-width: 640px) {
+  .topbar-r { flex-wrap: wrap; gap: 8px; }
+  .btn.admin-link { min-height: 44px; }
+}
